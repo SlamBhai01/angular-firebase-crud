@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>Firebase CRUD</title>
+</head>
+<body>
+  <div id="login-box">
+  <form  #registerForm="ngForm" (ngSubmit)="registerUser(registerForm.value)">
+      <div class="left ">
+      <h1>Sign up</h1>
+      <br>
+      <input type="text" ngModel id="username" class="input_Bnt" name="username" placeholder="Username" /><br><br>
+      <input type="text" ngModel id="first_name" class="input_Bnt" name="first_name" placeholder="First name" />
+      <br> <br><input type="text" ngModel id="last_name" class="input_Bnt" name="last_name" placeholder="Last name" />
+      <br><br>
+      <input type="submit" id="saveData" class="signup_submit" value="Update" />
+    </div>
+  </form>
+    <div class="or">OR</div>
+    <div class="right">
+      <!-- <span class="loginwith">Sign in with<br />social network</span> -->
+
+      <button class="social-signin facebook">Log in with facebook</button><br>
+      <button class="social-signin twitter">Log in with Twitter</button><br>
+      <button class="social-signin google" id="login">Log in with Google+</button>
+    </div>
+
+
+  </div>
+</body>
+
+</html>

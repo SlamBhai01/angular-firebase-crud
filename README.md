@@ -1,26 +1,59 @@
-# Angular Firebase CRUD
+# FirebaseCrud
 
-This is a simple Angular application that performs full CRUD (Create, Read, Update, Delete) operations using Firebase Realtime Database. The app is built using Angular's modern standalone component structure and connects with Firebase to manage user data in real time.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
 
-## 🚀 Features
+## Development server
 
-- 🔹 Add new users (username, first name, last name)
-- 🔹 Read and display user information
-- 🔹 Update existing user records
-- 🔹 Delete users from Firebase
-- 🔹 Clean and responsive UI with social login button styles (UI only)
-- 🔹 Uses Angular Standalone Components and Firebase modular SDK
-
-## 🔧 Technologies Used
-
-- Angular (Standalone Components)
-- Firebase Realtime Database
-- TypeScript
-- HTML / CSS
-
-## 📦 Installation
+To start a local development server, run:
 
 ```bash
-git clone https://github.com/SlamBhai01/angular-firebase-crud.git
-cd angular-firebase-crud
-npm install
+ng serve
+```
+
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

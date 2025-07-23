@@ -1,0 +1,77 @@
+  #login-box {
+    /* background-color: lightcoral; */
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+
+  }
+
+  .input_Bnt {
+    margin: 5px 0px;
+    border-top: none;
+    border-left: none;
+    outline: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(197, 189, 189);
+  }
+
+  .signup_submit {
+    background-color: #099383;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .or {
+    background-color: #DEDEDE;
+  height: 60px;
+  width: 80px;
+ border-radius: 50px;
+  padding: 5px 15px;
+  font-size: 34px;
+    margin:120px 20px;
+  }
+  .right{
+    margin:140px 0px;
+  }
+button.social-signin {
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+   margin-bottom: 10px;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+   margin-bottom: 10px;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+   margin-bottom: 10px;
+}
+
